@@ -1,8 +1,6 @@
 #!/usr/bin/env zsh 
 if [ "$1" = "--up" ]; then
-    # eww -c $HOME/.dotfiles/eww/bar o vol && wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && sleep 3 &&  eww -c $HOME/.dotfiles/eww/bar c vol
     swayosd-client --output-volume raise
 elif [ "$1" = "--down" ]; then
-    # eww -c $HOME/.dotfiles/eww/bar o vol && wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && sleep 3 &&  eww -c $HOME/.dotfiles/eww/bar c vol
     swayosd-client --output-volume lower
 fi

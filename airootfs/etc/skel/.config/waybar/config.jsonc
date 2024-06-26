@@ -65,7 +65,7 @@
             "default": [" ", " ", " "]
         },
         "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle", 
-        "on-click":"eww -c $HOME/.dotfiles/eww/bar o vol && sleep 3 &&  eww -c $HOME/.dotfiles/eww/bar c vol", 
+        "on-click":"eww -c $HOME/.config/eww/bar o vol && sleep 3 &&  eww -c $HOME/.config/eww/bar c vol", 
         "tooltip": false
 
     },
@@ -93,10 +93,10 @@
         "device":"intel_backlight",
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-click":"swayosd-client --brightness (~/.dotfiles/scripts/bri --get)", 
+        "on-click":"swayosd-client --brightness (~/.config/hypr/scripts/bri --get)", 
         "on-click-right": "swayosd-client --brightness 30",
-        "on-scroll-up": "~/.dotfiles/scripts/bri --up",
-        "on-scroll-down": "~/.dotfiles/scripts/bri --down",
+        "on-scroll-up": "~/.config/hypr/scripts/bri --up",
+        "on-scroll-down": "~/.config/hypr/scripts/bri --down",
         "tooltip": false,
     },
     "custom/sep": {
@@ -112,8 +112,6 @@
 	    "updated": "",
 	},
 	"exec": "$HOME/.config/hypr/scripts/waybar-updates -l 100",
-        // "on-click": "$HOME/.dotfiles/scripts/update-menu"
-	// "on-click": "hyprctl dispatch exec '[workspace special]' 'kitty ~/.dotfiles/scripts/update-menu' "
 	"on-click": "pypr toggle updatez && hyprctl dispatch bringactivetotop"
     },
     "wlr/taskbar": {

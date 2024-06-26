@@ -1,6 +1,6 @@
 function convert_aliases_to_abbreviations
     # Define the path to the aliases file
-    set aliases_file ~/.dotfiles/shells/aliases
+    set aliases_file ~/.aliases
     # Read each line from the aliases file
     while read -l line
         # Extract the alias name and command

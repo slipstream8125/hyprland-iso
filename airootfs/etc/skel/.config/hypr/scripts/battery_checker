@@ -7,16 +7,16 @@ SUPER_CRITICAL_THRESHOLD=5
 
 while true; do
    # Check battery percentage
-   battery_percentage=$($HOME/.dotfiles/eww/dashboard/scripts/sys_info --bat)
+   battery_percentage=$($HOME/.config/eww/scripts/sys_info --bat)
    charging_status=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | awk '/state/ {print $2}')
 
    if [ "$charging_status" != "charging" ]; then
       if [[ $battery_percentage -lt $LOW_THRESHOLD ]]; then
-         notify-send -i "~/.dotfiles/misc/battery-level-20-symbolic.svg " "Battery is below 15%!" "Current charge: $battery_percentage%"
+         notify-send "Battery is below 15%!" "Current charge: $battery_percentage%"
       elif [[ $battery_percentage -lt $CRITICAL_THRESHOLD ]]; then
-         notify-send -i "~/.dotfiles/misc/battery-level-10-symbolic.svg " "Battery is below 10%!" "Current charge: $battery_percentage%"
+         notify-send "Battery is below 10%!" "Current charge: $battery_percentage%"
       elif [[ $battery_percentage -lt $SUPER_CRITICAL_THRESHOLD ]]; then
-         notify-send -i "~/.dotfiles/misc/battery-level-0-symbolic.svg " "Battery is below 5%!" "Current charge: $battery_percentage%"
+         notify-send "Battery is below 5%!" "Current charge: $battery_percentage%"
       fi
    fi
 

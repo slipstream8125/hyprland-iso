@@ -8,7 +8,7 @@
 ;; ** Variables ***********************************************************************
 
 ;; Profile vars
-(defvar IMAGE "/home/stig/.dotfiles/avatar.png")
+(defvar IMAGE "$HOME/Pictures/avatar.png")
 (defvar NAME `whoami`)
 (defpoll UNAME :interval "5m" `whoami`)
 

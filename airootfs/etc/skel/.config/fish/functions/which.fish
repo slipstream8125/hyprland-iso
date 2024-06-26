@@ -10,12 +10,12 @@ function which
         set_color normal
     end
 
-    if rg "function $cmd" $HOME/.dotfiles/shells/fish/config.fish >/dev/null
+    if rg "function $cmd" $HOME/.config/fish/config.fish >/dev/null
 	functions $cmd
     end
 
     # Check if the function is defined in the functions directory
-    set func_file $HOME/.dotfiles/shells/fish/functions/$cmd.fish
+    set func_file $HOME/.config/fish/functions/$cmd.fish
     if test -f $func_file
 	functions $cmd
     end

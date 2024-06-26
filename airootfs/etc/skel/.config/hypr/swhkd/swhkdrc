@@ -345,7 +345,7 @@ alt + F3
 
 #Xcfe4-TaskManager
 ctrl + shift + Escape
-    kitty -e btop # btop is included in dotfiles scripts
+    kitty -e btop
 
 ctrl +  Escape
     kitty -e btop 

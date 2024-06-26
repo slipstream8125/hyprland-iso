@@ -79,6 +79,7 @@ amd-ucode
 # iputils
 iw
 iwd
+jq
 kcrash
 kitty
 kpmcore
@@ -114,6 +115,7 @@ nano
 neovim
 networkmanager
 network-manager-applet
+## nwg-clipman
 ## nwg-dock-hyprland
 # nfs-utils
 # nilfs-utils
@@ -129,7 +131,10 @@ pacman-contrib
 # parted
 # partimage
 # pcsclite
+playerctl
+polkit-gnome
 pv
+## pyprland
 python-pyqt5
 qt5-wayland
 qt6-wayland
