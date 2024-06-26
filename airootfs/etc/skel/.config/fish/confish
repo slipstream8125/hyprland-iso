@@ -3,11 +3,13 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     source (/usr/bin/starship init fish --print-full-init | psub)
     # set -gx fish_key_bindings fish_vi_key_bindings
-    if test "$IS_VTERM" != "1"
+    if [ "$IS_VTERM" != "1" ];
 	fish_vi_key_bindings
     else
 	fish_default_key_bindings
     end
+    source ~/.dotfiles/shells/.profile
+    source ~/.dotfiles/shells/aliases
     set -x MANROFFOPT "-c"
     set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
     set fish_greeting
@@ -29,9 +31,22 @@ if status is-interactive
     end
     function __conda_add_prompt # kill the right prompt __conda_add_prompt
     end
-    source ~/.config/fish/git.fish
+    source ~/.dotfiles/shells/fish/git.fish
     tokyonight-dark # function to display in tokyonight-dark colours
 end
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /home/stig/.miniconda/bin/conda
+    eval /home/stig/.miniconda/bin/conda "shell.fish" "hook" $argv | source
+else
+    if test -f "/home/stig/.miniconda/etc/fish/conf.d/conda.fish"
+        . "/home/stig/.miniconda/etc/fish/conf.d/conda.fish"
+    else
+        set -x PATH "/home/stig/.miniconda/bin" $PATH
+    end
+end
+# <<< conda initialize <<<
 
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
 function __history_previous_command
@@ -75,9 +90,4 @@ function copy
     else
 	command cp $argv
     end
-end
-
-# Start Hyprland on Startup
-if test -z "$DISPLAY" -a (tty) = "/dev/tty1"
-	Hyprland
 end
