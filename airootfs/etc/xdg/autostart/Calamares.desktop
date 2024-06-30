@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Exec=sudo -E calamares
+User=stratos

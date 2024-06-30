@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-sudo ln -sf /usr/lib/systemd/system/ly.service /etc/systemd/system/display-manager.service
+pkexec rm -f /etc/xdg/autostart/Calamares.desktop
+pkexec ln -sf /usr/lib/systemd/system/ly.service /etc/systemd/system/display-manager.service
 # Hyprland should autostart from the tty - only for the live user
 head -n -5 $HOME/.config/fish/config.fish > confish && mv confish $HOME/.config/fish/config.fish
-sudo rm -f /etc/systemd/system/getty@tty1.service.d/autologin.conf # Remove getty service too, ly supersedes this
-sudo rm -f /etc/systemd/system/multi-user.target.wants/getty@tty2.service
+pkexec rm -f /etc/systemd/system/getty@tty1.service.d/autologin.conf # Remove getty service too, ly supersedes this
+pkexec rm -f /etc/systemd/system/multi-user.target.wants/getty@tty2.service
 # Clean up
-sudo rm -f /usr/local/bin/enable-display-manager
+pkexec rm -f /usr/local/bin/enable-display-manager
