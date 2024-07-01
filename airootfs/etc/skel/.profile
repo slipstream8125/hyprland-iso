@@ -24,5 +24,3 @@ export GTK_FILE_CHOOSER_BACKEND="file:///$HOME/.local/share/applications/ranger-
 export MOZ_ENABLE_WAYLAND=1
 export IPYTHONDIR="$XDG_CONFIG_HOME/ipython"
 export SQLITE_HISTORY="$XDG_CACHE_HOME"/sqlite_history
-export PATH="$HOME/.Podman/bin:$HOME/Applications:$HOME/.local/share/cargo/bin:$PATH"
-# set -U fish_user_paths "$HOME/.Podman/bin" "$HOME/Applications" $fish_user_paths
