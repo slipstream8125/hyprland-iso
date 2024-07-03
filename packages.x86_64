@@ -12,7 +12,7 @@ bibata-cursor-theme
 broadcom-wl
 # btrfs-progs
 calamares-git
-ckbcomp
+# ckbcomp
 cmake
 chromium
 # clonezilla
@@ -71,7 +71,7 @@ xdg-desktop-portal-gtk
 gpart
 # gpm
 gptfdisk
-grab
+# grab
 grub
 hdparm
 intel-ucode
@@ -140,7 +140,7 @@ qt5-wayland
 qt6-wayland
 refind
 # reflector
-rock
+# rock
 ripgrep
 rsync
 sg3_utils
@@ -148,7 +148,7 @@ smartmontools
 sof-firmware
 squashfs-tools
 starship
-stratmacs
+# stratmacs
 sudo
 syslinux
 systemd-resolvconf
