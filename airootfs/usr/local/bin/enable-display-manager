@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+pacman -Rns calamares-git --noconfirm
 ln -sf /usr/lib/systemd/system/ly.service /etc/systemd/system/display-manager.service
 # Hyprland should autostart from the tty - only for the live user
 head -n -5 /home/*/.config/fish/config.fish > confish && mv confish ~/.config/fish/config.fish # won't work
