@@ -34,7 +34,7 @@ edk2-shell
 efibootmgr
 ## emacs
 ethtool
-eww
+# eww
 exfatprogs
 eza
 f2fs-tools
@@ -107,7 +107,7 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 # mkinitcpio-nfs-utils
-mkinitcpio-openswap
+# mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -176,6 +176,6 @@ xf86-video-amdgpu
 xf86-video-nouveau
 xorg
 xorg-server
-yay-bin
+# yay-bin
 zsh
 zsh-syntax-highlighting
