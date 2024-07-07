@@ -1,4 +1,5 @@
 alsa-utils
+albert
 amd-ucode
 # arch-install-scripts
 # archinstall
@@ -33,7 +34,7 @@ edk2-shell
 efibootmgr
 ## emacs
 ethtool
-## eww
+eww
 exfatprogs
 eza
 f2fs-tools
