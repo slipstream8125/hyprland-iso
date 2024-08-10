@@ -1,5 +1,4 @@
 alsa-utils
-albert
 amd-ucode
 # arch-install-scripts
 # archinstall
@@ -9,7 +8,7 @@ base
 base-devel
 bat
 # bind
-# bibata-cursor-theme-bin
+bibata-cursor-theme-bin
 broadcom-wl
 # btrfs-progs
 calamares-git
@@ -47,7 +46,7 @@ git
 github-cli
 
 # Hyprland-related
-## albert
+albert
 conky
 ly
 waybar
@@ -59,7 +58,7 @@ slurp
 swappy
 pinentry
 wireplumber
-## pyprland
+pyprland
 hyprland
 hyprcursor
 hyprlock
@@ -141,7 +140,7 @@ qt5-wayland
 qt6-wayland
 refind
 # reflector
-# rock
+rockers
 ripgrep
 rsync
 sg3_utils
