@@ -1,26 +1,17 @@
 alsa-utils
 amd-ucode
-# arch-install-scripts
-# archinstall
 archlinux-keyring
-# aura-bin
+aura-bin 
 # b43-fwcutter
 base
 base-devel
 bat
-# bind
-# bibata-cursor-theme-bin
+bibata-cursor-theme-bin
 broadcom-wl
-# btrfs-progs
-# calamares
-# ckbcomp
+calamares
 cmake
 chromium
-# clonezilla
-# cryptsetup
-# darkhttpd
 dbus
-# ddrescue
 dhclient
 dhcpcd
 dialog
@@ -37,23 +28,25 @@ ethtool
 # eww
 exfatprogs
 eza
+fastfetch
 f2fs-tools
 fatresize
 fd
 fish
-# fsarchiver
 fzf
 git
 github-cli
 
 # Hyprland-related
-# albert
+albert
 conky
 ly
 waybar
-mako
+dunst
 pipewire-pulse
 network-manager-applet
+## nwg-clipman
+nwg-dock-hyprland-bin
 grim
 slurp
 swappy
@@ -68,16 +61,13 @@ hypridle
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
 
-# gnu-netcat
 gpart
-# gpm
 gptfdisk
 # grab
 grub
 hdparm
 intel-ucode
 amd-ucode
-# iputils
 iw
 iwd
 jq
@@ -87,7 +77,6 @@ kpmcore
 kvantum
 lazygit
 less
-# libfido2
 libusb-compat
 libxpm
 licenses
@@ -95,10 +84,7 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-# livecd-sounds
-# lsscsi
 lvm2
-# lynx
 man-db
 man-pages
 mdadm
@@ -106,32 +92,24 @@ memtest86+
 memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
-# mkinitcpio-nfs-utils
 # mkinitcpio-openswap
 modemmanager
 mtools
 nano
 # nbd
-# ndisc6
 neovim
 networkmanager
 network-manager-applet
-## nwg-clipman
-## nwg-dock-hyprland-bin
 # nfs-utils
 # nilfs-utils
 npm
 ntfs-3g
-# nvme-cli
 open-iscsi
 open-vm-tools
 openssh
 os-prober
 pacman-contrib
-# partclone
 # parted
-# partimage
-# pcsclite
 playerctl
 polkit-gnome
 pv
@@ -140,7 +118,6 @@ python-pyqt5
 qt5-wayland
 qt6-wayland
 refind
-# reflector
 # rockers
 ripgrep
 rsync
@@ -149,11 +126,9 @@ smartmontools
 sof-firmware
 squashfs-tools
 starship
-# stratmacs
 sudo
 syslinux
 systemd-resolvconf
-# tcpdump
 terminus-font
 testdisk
 # tpm2-tools
@@ -162,7 +137,6 @@ ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols-common
 ttf-nerd-fonts-symbols-mono
 noto-fonts
-# udftools
 usb_modeswitch
 usbmuxd
 usbutils
