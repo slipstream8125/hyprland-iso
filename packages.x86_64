@@ -11,7 +11,7 @@ bat
 bibata-cursor-theme-bin
 broadcom-wl
 # btrfs-progs
-calamares-git
+# calamares
 # ckbcomp
 cmake
 chromium
@@ -46,7 +46,7 @@ git
 github-cli
 
 # Hyprland-related
-albert
+# albert
 conky
 ly
 waybar
@@ -116,7 +116,7 @@ neovim
 networkmanager
 network-manager-applet
 ## nwg-clipman
-## nwg-dock-hyprland
+## nwg-dock-hyprland-bin
 # nfs-utils
 # nilfs-utils
 npm
@@ -140,7 +140,7 @@ qt5-wayland
 qt6-wayland
 refind
 # reflector
-rockers
+# rockers
 ripgrep
 rsync
 sg3_utils
