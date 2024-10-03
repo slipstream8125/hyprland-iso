@@ -22,20 +22,18 @@ jobs:
           pacman -Sy git grub sudo archiso --noconfirm
           git clone --recurse-submodules https://github.com/StratOS-Linux/hyprland-iso
 
-      - name: Set up environment
+      - name: Set up environment and build ISO
+        id: build_iso
         run: |
+          cd hyprland-iso
+          sudo bash ./build.sh
           export BUILD_DATE=$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)
           echo "BUILD_DATE=${BUILD_DATE}" >> $GITHUB_ENV
           echo "::set-output name=date::${BUILD_DATE}" 
 
-      - name: Build ISO
-        id: build_iso
-        run: |
-          cd StratOS-Hyprland
-          sudo bash ./build.sh
-
       - name: Create GitHub Release
         id: create_release
+        if: steps.build_iso.outcome == 'success'
         uses: actions/create-release@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,6 +45,7 @@ jobs:
 
       - name: Upload ISO as Release Asset
         id: upload_asset
+        if: steps.build_iso.outcome == 'success'
         uses: actions/upload-release-asset@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
