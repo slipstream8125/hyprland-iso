@@ -40,8 +40,10 @@ github-cli
 
 # Hyprland-related
 albert
+brightnessctl
 conky
 ly
+thunar
 waybar
 dunst
 pipewire-pulse
@@ -142,7 +144,7 @@ noto-fonts
 usb_modeswitch
 usbmuxd
 usbutils
-# vim
+vim
 wireless-regdb
 wireless_tools
 wget
