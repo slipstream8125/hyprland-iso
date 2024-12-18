@@ -1,3 +1,4 @@
+albert
 alsa-utils
 amd-ucode
 archlinux-keyring
@@ -23,7 +24,7 @@ dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-## emacs
+emacs
 ethtool
 # eww
 exfatprogs
@@ -63,7 +64,7 @@ xdg-desktop-portal-gtk
 
 gpart
 gptfdisk
-# grab
+grab
 grub
 hdparm
 intel-ucode
@@ -87,6 +88,7 @@ linux-firmware-marvell
 lvm2
 man-db
 man-pages
+maneki-neko
 mdadm
 memtest86+
 memtest86+-efi
@@ -118,7 +120,7 @@ python-pyqt5
 qt5-wayland
 qt6-wayland
 refind
-# rockers
+rockers
 ripgrep
 rsync
 sg3_utils
@@ -150,6 +152,6 @@ xf86-video-amdgpu
 xf86-video-nouveau
 xorg
 xorg-server
-# yay-bin
+yay-bin
 zsh
 zsh-syntax-highlighting
