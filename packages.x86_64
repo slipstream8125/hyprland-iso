@@ -59,8 +59,10 @@ hyprcursor
 hyprlock
 hyprpaper
 hypridle
+udiskie
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
+
 
 gpart
 gptfdisk
