@@ -42,6 +42,7 @@ jobs:
           release_name: v${{ env.BUILD_DATE }}
           body: |
             Automated release powered by GitHub Actions.
+          prerelease: true
 
       - name: Upload ISO as Release Asset
         id: upload_asset
