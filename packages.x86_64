@@ -123,7 +123,6 @@ python-pyqt5
 qt5-wayland
 qt6-wayland
 refind
-# rockers
 ripgrep
 rsync
 sg3_utils
