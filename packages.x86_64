@@ -47,7 +47,7 @@ dunst
 pipewire-pulse
 network-manager-applet
 ## nwg-clipman
-nwg-dock-hyprland-bin
+# nwg-dock-hyprland-bin
 grim
 slurp
 swappy
