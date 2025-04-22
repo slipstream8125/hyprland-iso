@@ -154,6 +154,7 @@ xf86-video-amdgpu
 xf86-video-nouveau
 xorg
 xorg-server
+yaml-cpp
 yay-bin
 zsh
 zsh-syntax-highlighting

@@ -1,4 +1,5 @@
 alias ls='eza --color=always'
+alias neovim=nvim
 alias rg='rg -i --sort path'
 alias grep='grep --color=auto'
 alias neofetch='neofetch --ascii_distro janus'
