@@ -7,3 +7,4 @@ rm -f /etc/systemd/system/multi-user.target.wants/getty@tty2.service
 rm -f /etc/systemd/system/autologin@.service
 # Clean up
 rm -f /usr/local/bin/enable-display-manager
+ln -sf /usr/lib/systemd/system/ly.service /etc/systemd/system/display-manager.service # start ly on the installed system
