@@ -39,6 +39,7 @@ file_permissions=(
   ["/usr/local/bin/neofetch"]="0:0:777"
   ["/usr/local/bin/ucode"]="0:0:777"
   ["/usr/local/bin/vcheck"]="0:0:777"
+  ["/usr/local/bin/final"]="0:0:777"
   ["/usr/local/bin/enable-display-manager"]="0:0:777"
   ["/usr/local/bin/install-using-pacman"]="0:0:777"
   ["/usr/local/bin/install-using-yay"]="0:0:777"
