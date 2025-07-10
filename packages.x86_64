@@ -9,7 +9,7 @@ base-devel
 bat
 bibata-cursor-theme-bin
 broadcom-wl
-calamares
+calamares-git
 cmake
 chromium
 dbus
