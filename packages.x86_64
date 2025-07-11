@@ -39,7 +39,7 @@ git
 github-cli
 
 # Hyprland-related
-albert
+# albert
 conky
 ly
 waybar
@@ -47,7 +47,6 @@ dunst
 pipewire-pulse
 network-manager-applet
 ## nwg-clipman
-nwg-dock-hyprland-bin
 grim
 slurp
 swappy
@@ -96,7 +95,7 @@ memtest86+
 memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
-# mkinitcpio-openswap
+mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -113,7 +112,7 @@ open-vm-tools
 openssh
 os-prober
 pacman-contrib
-# parted
+parted
 playerctl
 polkit-gnome
 pv
@@ -144,7 +143,7 @@ noto-fonts
 usb_modeswitch
 usbmuxd
 usbutils
-# vim
+vim
 wireless-regdb
 wireless_tools
 wget
