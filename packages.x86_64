@@ -39,7 +39,6 @@ git
 github-cli
 
 # Hyprland-related
-# albert
 conky
 ly
 waybar
@@ -95,7 +94,7 @@ memtest86+
 memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
-mkinitcpio-openswap
+# mkinitcpio-openswap
 modemmanager
 mtools
 nano
