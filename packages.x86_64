@@ -130,6 +130,13 @@ smartmontools
 sof-firmware
 squashfs-tools
 starship
+stratmacs-config
+stratos-btop-config
+stratos-calamares-config
+stratos-kitty-config
+stratos-mako-config
+stratos-starship-config
+stratos-wallpapers
 sudo
 syslinux
 systemd-resolvconf
