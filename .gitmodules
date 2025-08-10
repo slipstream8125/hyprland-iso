@@ -12,4 +12,4 @@
 	url = https://github.com/StratOS-Linux/StratOS-grub
 [submodule "airootfs/etc/calamares"]
 	path = airootfs/etc/calamares
-	url = https://github.com/StratOS-Linux/StratOS-calamares-settings
+	url = https://github.com/slipstream8125/StratOS-calamares-settings
