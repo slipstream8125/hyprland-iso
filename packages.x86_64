@@ -100,7 +100,7 @@ mtools
 nano
 # nbd
 neovim
-netcat
+gnu-netcat
 networkmanager
 network-manager-applet
 # nfs-utils
@@ -131,7 +131,7 @@ sof-firmware
 squashfs-tools
 starship
 stratmacs-config
-stratos-btop-config
+# stratos-btop-config
 stratos-calamares-config
 stratos-kitty-config
 stratos-mako-config
