@@ -6,7 +6,7 @@
 	url = https://github.com/StratOS-Linux/StratVIM.git
 [submodule "airootfs/etc/skel/.config/emacs"]
 	path = airootfs/etc/skel/.config/emacs
-	url = https://github.com/StratOS-Linux/Stratmacs
+	url = https://github.com/StratOS-Linux/Stratmacs-config
 [submodule "airootfs/usr/share/grub/themes/StratOS-grub"]
 	path = airootfs/usr/share/grub/themes/StratOS-grub
 	url = https://github.com/StratOS-Linux/StratOS-grub
