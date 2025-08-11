@@ -131,7 +131,7 @@ sof-firmware
 squashfs-tools
 starship
 stratmacs-config
-stratos-btop-config
+# stratos-btop-config
 stratos-calamares-config
 stratos-kitty-config
 stratos-mako-config
