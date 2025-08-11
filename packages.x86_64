@@ -100,7 +100,7 @@ mtools
 nano
 # nbd
 neovim
-netcat
+gnu-netcat
 networkmanager
 network-manager-applet
 # nfs-utils
