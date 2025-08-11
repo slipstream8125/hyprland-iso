@@ -125,6 +125,7 @@ rockers
 ripgrep
 rsync
 sg3_utils
+sherlock-launcher-bin
 smartmontools
 sof-firmware
 squashfs-tools
